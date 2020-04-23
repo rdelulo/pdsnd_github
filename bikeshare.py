@@ -34,6 +34,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+	#greating is started here
     print('\nHello! \n\tWelcome to  US bikeshare data explorer!')
     print("\t----------------------------------------")
     print("\t NOTE: The data you enter is not case sensitive and you can type the letter in capital, lowercase or Mix.")
