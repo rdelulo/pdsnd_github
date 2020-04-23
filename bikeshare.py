@@ -11,6 +11,7 @@
  https://towardsdatascience.com/top-python-libraries-numpy-pandas-8299b567d955
  https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html
  https://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/Python-for-Data-Analysis.pdf
+ Udacity documentation and lecture
 """
 import time
 import pandas as pd
@@ -172,7 +173,7 @@ def trip_duration_stats(df):
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
     """
-
+    #display trip
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
